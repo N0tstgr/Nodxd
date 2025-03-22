@@ -1,0 +1,2 @@
+# Nodxd
+setting up git
