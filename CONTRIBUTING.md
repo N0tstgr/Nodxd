@@ -31,7 +31,7 @@ Before contributing code:
 [Contributor License Agreement](https://cla.developers.google.com/clas).
 You can do this online, and it only takes a minute.
 
-2. Review the [DevTools style guide](STYLE.md), which uses a combination of Dart and Flutter best practices.
+2. Review the [DevTools style guide](STYLE.md), which use a combination of Dart and Flutter best practices.
 
 ## Table of contents
 1. [Developing for DevTools](#developing-for-devtools)
@@ -75,7 +75,7 @@ with the upstream DevTools repo.
 	  - **MacOS Users**
 	    - add the following to your `~/.zshrc` file (or `~/.bashrc`, `~/.bash_profile` if you use Bash),
 		replacing `<DEVTOOLS_DIR>` with the absolute path to your DevTools repo:
-
+Notstranger first contribution on any github repository (https://github.com/N0tstgr)
 			```
 			export PATH=$PATH:<DEVTOOLS_DIR>/tool/bin
 			```
