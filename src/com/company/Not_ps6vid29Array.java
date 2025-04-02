@@ -18,7 +18,7 @@ public class Not_ps6vid29Array {
 //        for(float i = 0; i<marks.length; i++){
 //            System.out.println(i);
 //        }
-//for(float  element:marks){
+//for(float  element:marks){ s
 //    sum = sum + element;
 //        }
 //        System.out.println(sum);
@@ -30,19 +30,37 @@ public class Not_ps6vid29Array {
 //        marks[3] = 98;
 //        marks[4] = 67;
 //        System.out.println(marks[3]);
-        float[] marks  = {90.4f, 99f, 88, 99.4f, 33.7f, };
-        float num = 33.7f;
-        boolean isInArray = false;
-        for (float element: marks) {
-            if (num == element) {
-isInArray = true;
-break;
-            }
-//        } if (isInArrya) {
-            System.out.println("the value is true" + isInArray);
-        }else{
-            System.out.println("the value is false");
-        }
+//        float[] marks  = {90.4f, 99f, 88, 99.4f, 33.7f, };
+//        float num = 33.7f;
+//        boolean isInArray = false;
+//        for (float element: marks) {
+//            if (num == element) {
+//isInArray = true;
+//break;
+//            }
+//        } if (isInArray) {
+//            System.out.println("the value is  " + isInArray);
+//        }else{
+//            System.out.println("the value is  " +isInArray);
+//        }
+                               //Ps3 Marks of students in physhics
+        float average;
+              int[] marks = new int[5];
+              marks[0] = 76;
+              marks[1] = 70;
+              marks[2] = 45;
+              marks[3] = 55;
+              marks[4] = 98;
+
+              for(int element: marks){
+                  average = (marks[0] + marks[1] + marks[2] + marks[3] + marks[4])/5;
+                  System.out.println(average);
+              }
+
+
+
+
+
 
 
     }
