@@ -22,6 +22,9 @@ public class Not_ps6vid29Array {
 //    sum = sum + element;
 //        }
 //        System.out.println(sum);
+
+
+
 //Practice problem 2
 //        int[] marks = new int[5];
 //        marks[0] = 99;
@@ -43,25 +46,65 @@ public class Not_ps6vid29Array {
 //        }else{
 //            System.out.println("the value is  " +isInArray);
 //        }
-                               //Ps3 Marks of students in physhics
-        float average;
-              int[] marks = new int[5];
-              marks[0] = 76;
-              marks[1] = 70;
-              marks[2] = 45;
-              marks[3] = 55;
-              marks[4] = 98;
-
-              for(int element: marks){
-                  average = (marks[0] + marks[1] + marks[2] + marks[3] + marks[4])/5;
-                  System.out.println(average);
-              }
 
 
 
+                               //Ps3 Marks of students in physics
+//
+//              int[] student = new int[5];
+//              float sum = 0;
+//             student[0] = 76;
+//              student[1] = 70;
+//              student[2] = 45;
+//              student[3] = 55;
+//              student[4] = 98;
+// average  = (student[0]+  student[1] + student[2] + student[3]+ student[4])/student.length;
+//             for(float element:student) {
+//                 sum = sum + element;
+//             }
+//                 System.out.println("this is the average marks of student in physics :  " + sum/student.length);
 
 
+             //ps4 create a java program to add two matrices of size 2X3
+//int sum = 0;
+//        int [][] matr1  = {{1, 2, 3},
+//                           {5, 6, 8},
+//        };
+//        int [][] matr2 = {{4, 3, 2},
+//                          {8, 2, 1}
+//        };
+//
+//int [][] result = {{0, 0, 0},
+//                   {0, 0, 0}
+//};
+//for (int i = 0; i<matr1.length; i++){ //row no of times
+//for (int j = 0; j<matr2[i].length; j++){ // coloumn no of times
+//    System.out.format("this is the value for i=%d and j = %d\n", i, j);
+//
+//    result[i][j] = matr1[i][j] + matr2[i][j];
+//}
+//   }
+////this is how printing of 2-d array done
+//        for (int i = 0; i<matr1.length; i++) { //row no of times
+//            for (int j = 0; j < matr2[i].length; j++) { // coloumn no of times
+//                System.out.print(result[i][j] + " ");
+//
+//                result[i][j] = matr1[i][j] + matr2[i][j];
+//            }
+//            System.out.println(" ");
+//        }
+// //practice set 5 reversing the array
 
+int[] hi = new int[5];
+hi[0] = 9;
+hi[1] = 8;
+hi[2] = 7;
+hi[3] = 6;
+hi[4] = 5;
+for(int i = hi.length; i<=0; i--){
+    System.out.println(hi[i]);
+
+}
 
     }
 }
